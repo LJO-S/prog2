@@ -15,5 +15,7 @@ def main():
 	print(f.get())
 	print(fib_py(5))
 	print(f.fib())
+	w = Integer(3)
+	print(w.fib())
 if __name__ == '__main__':
 	main()
