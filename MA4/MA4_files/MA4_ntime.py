@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+import matplotlib
+matplotlib.use('Agg')
+
 from integer import Integer
 from time import perf_counter as pc
 import matplotlib.pyplot as plt
@@ -31,7 +34,7 @@ def main():
 
 	plt.plot(n_list, time_c, 'bo')
 	plt.plot(n_list, time_py, 'ro')
-	plt.show()
+	plt.savefig('n_test')
 
 
 if __name__ == '__main__':
