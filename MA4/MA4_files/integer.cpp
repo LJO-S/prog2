@@ -1,5 +1,9 @@
 #include <cstdlib>
 // Integer class 
+// Student: Ludvig Snihs
+// Mail: ludvig.snihs.7653@student.uu.se
+// Date: 2021-10-08
+// Reviewed by: Mohammed Mosa
 
 class Integer{
 	public:

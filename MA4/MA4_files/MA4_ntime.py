@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
+# Student: Ludvig Snihs
+# Mail: ludvig.snihs.7653@student.uu.se
+# Date: 2021-10-08
+# Reviewed by: Mohammed Mosa
+
 
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use('Agg')  
 
 from integer import Integer
 from time import perf_counter as pc
@@ -30,7 +35,6 @@ def main():
 		fib_py(n)
 		end2 = pc()
 		time_py += [end2-start2]
-		print('Loop klar')
 
 	plt.plot(n_list, time_c, 'bo')
 	plt.plot(n_list, time_py, 'ro')
